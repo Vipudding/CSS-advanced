@@ -22,6 +22,7 @@ header {
   align-items: center;
   padding-left: 16px;
   height: 72px;
+  letter-spacing: 1px;
 }
 
 .header-logo h1 {
@@ -38,28 +39,48 @@ header {
 
 .ship-container {
   display: flex;
-  border: solid white 2px;
+  
   margin-bottom: 20px;
   position: relative;
 }
 
-.nave1-image {
+.ship-image {
   flex: 0 0 auto;
-  order: 2; 
-}
-
-.nave1-image img {
-  max-width: 500px;
-  height: 400px;
-}
-.Ship-Name1 {
-  text-align: right;
+  order: 2;
 }
 .ship-info {
   color: #fff;
   padding: 20px;
-  order: 1; 
 }
-.Ship-Name2 {
-  text-align: left;
+.position-info {
+  text-align: end;
+  background-color: #222222e5;
+  padding: 20px;
+  border-radius: 16%;
+  border: 2px solid white;
+  margin: 2px;
+  text-shadow: 3px 3px 1px black;
+  font-size: 18px;
+}
+.position-info2 {
+  text-align: initial;
+  background-color: #222222e5;
+  padding: 20px;
+  border-radius: 16%;
+  border: 2px solid;
+  margin: 2px;
+  text-shadow: 3px 3px 1px black;
+  font-size: 18px;
+}
+.nave-info,
+.ship-name {
+  margin: 0;
+}
+footer {
+    background-color: #000000c2;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    text-shadow: 2px 2px 3px white;
 }
