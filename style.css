@@ -39,14 +39,27 @@ header {
 .ship-container {
   display: flex;
   border: solid white 2px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.nave1-image {
+  flex: 0 0 auto;
+  order: 2; 
 }
 
 .nave1-image img {
   max-width: 500px;
   height: 400px;
-  
 }
-
+.Ship-Name1 {
+  text-align: right;
+}
 .ship-info {
   color: #fff;
+  padding: 20px;
+  order: 1; 
+}
+.Ship-Name2 {
+  text-align: left;
 }
