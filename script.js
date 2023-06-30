@@ -21,7 +21,8 @@ window.addEventListener("scroll", function() {
         element.classList.add("visible");
       }
     }
-  });
+  })
+  
   
   
   
