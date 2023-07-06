@@ -4,6 +4,7 @@ body {
   background-image: url(Imagens/Space.jpg);
   margin: 0;
   padding: 0;
+  
 }
 
 header {
@@ -39,6 +40,7 @@ header {
   list-style-type: none;
   font-size: 18px;
   gap: 16px;
+  margin-right: 25px;
 }
 
 .header__nav a {
@@ -128,4 +130,9 @@ footer {
   width: 100%;
   border-top: solid 1px #fff;
   text-shadow: 0 0 5px white;
+}
+/*------------------------------------SWAPI.CSS----------------------------------------------------------*/
+.title-page-SWAPI {
+  margin: 16px;
+  text-align: center;
 }
